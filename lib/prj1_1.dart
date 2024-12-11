@@ -4,8 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/bottomnavigationbar.dart';
 import 'package:flutter_application_1/drawer1.dart';
 
-import 'package:flutter_application_1/prj2_0.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -38,7 +36,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: FirstPage());
+        home: const PetHomePage());
   }
 }
 
