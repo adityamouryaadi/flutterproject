@@ -89,6 +89,7 @@ class PetHomePage extends StatelessWidget {
         ),
       ),
       body: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
         child: Container(
           padding: EdgeInsets.symmetric(horizontal: 50),
           child: Column(

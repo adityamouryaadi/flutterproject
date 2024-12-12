@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/prj2_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -107,7 +108,12 @@ class FirstPage extends StatelessWidget {
               height: 60,
               width: 240,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => SecondPage()),
+                  );
+                },
                 child: Text(
                   'Continue',
                   style: TextStyle(color: Colors.white, fontSize: 20),
