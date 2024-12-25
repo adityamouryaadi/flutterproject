@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/prj2_1.dart';
+import 'package:flutter_application_1/Pet2_2.dart';
 
 void main() {
   runApp(const MyApp());

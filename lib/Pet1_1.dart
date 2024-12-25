@@ -1,7 +1,7 @@
 // import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/prj1_1.dart';
+import 'package:flutter_application_1/Pet1_2.dart';
 
 void main() {
   runApp(const MyApp());

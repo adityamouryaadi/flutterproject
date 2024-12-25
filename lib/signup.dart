@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_application_1/prj1_o.dart';
+import 'package:flutter_application_1/Pet2_1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -125,7 +125,7 @@ class Signup extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => startingpage()),
+                    MaterialPageRoute(builder: (context) => FirstPage()),
                   );
                 },
                 child: Text(
